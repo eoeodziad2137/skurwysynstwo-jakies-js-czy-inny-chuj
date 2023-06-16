@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    <div style="color:green;font-size:40px;">
+        <script language="JavaScript">
+            var d1_bogd = prompt("Pierwszy dzien=", "");
+            var d2_bogd = prompt("Drugi dzien=", "");
+            var g1_bogd = prompt("Pierwsza godzina=", "");
+            var g2_bogd = prompt("Druga godzina=", "");
+            var roznica;
+            var roznicab;
+            var a = parseFloat(d1_bogd);
+            var b = parseFloat(d2_bogd);
+            var c = parseFloat(g1_bogd);
+            var d = parseFloat(g2_bogd);
+            var e = 3600;
+            var f = 86400;
+            roznica = a - b;
+            roznicab = c - d;
+            var wynik;
+            wynik = roznica * f + roznicab * e;
+            document.write("Ilośc sekund="   + wynik + "<br>");
+        </script>
+    </div>
+</body>
+
+</html>
